@@ -16,7 +16,7 @@ export default function Featured() {
       </div>
       <div class="img-wrapper">
         <img
-          src="./public/img/wine-bottles/Rxg_HyC7Qf2KR7kN--iyRA_pb_x600.png"
+          src="/img/wine-bottles/Rxg_HyC7Qf2KR7kN--iyRA_pb_x600.png"
           alt=""
           srcset=""
         />
