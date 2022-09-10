@@ -1,74 +1,75 @@
-
 @use "../../scss/variables";
-#shop{
-    display: grid;
-    justify-items: center;
-    grid-template-columns: repeat( auto-fit, minmax(250px, 1fr) );
-    background-color: variables.$dark;
-    color: white;
-    .wine{
-        background-color: variables.$card-dark-wine;
-        padding: .7rem;
-        display: flex;
-        margin-top: .5rem;
-        margin-bottom: .5rem;
-        flex-flow: column nowrap;
-        align-items: center;
-        max-width: 250px;
-        border-radius: 1rem;
-        transition: 250ms ease-in-out;
-        &:hover{
-            background-color: variables.$card-dark-wine-hover;
-        }
-        .img-wrapper{
-            text-align: center;
-            height:15rem;
-            img{
-                height: 100%;
-            }
-        }
-        .content{
-            display: flex;
-            flex-flow: column nowrap;
-            h1,h2{
-                margin: .2rem;
-                text-align: center;
-            }
-            h1, h2{
-                text-transform: uppercase;
-                overflow: hidden;
-                text-overflow: ellipsis;
-                display: -webkit-box;
-                -webkit-line-clamp: 1; /* number of lines to show */
-                        line-clamp: 1;
-                -webkit-box-orient: vertical;
-            }
-            ul li{
-                list-style-type: none;
-                font-size: 1.2rem;
-                overflow: hidden;
-                text-overflow: ellipsis;
-                display: -webkit-box;
-                -webkit-line-clamp: 1; /* number of lines to show */
-                        line-clamp: 1;
-                -webkit-box-orient: vertical;
-                img{
-                    height: 1.2rem;
-                }
-            }
-            a{
-                text-decoration: none;
-                color: white;
-                align-self: center;
-                padding: .5rem 1.2rem;
-                border-radius: 1.2rem;
-                background-color: variables.$lblue;
-                transition: 250ms ease-in-out;
-                &:hover{
-                    background-color: white;
-                    color: variables.$dark-wine;
-                }
-            }
-        }
+#shop {
+  display: grid;
+  justify-items: center;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  background-color: variables.$dark;
+  color: white;
+  .wine {
+    background-color: variables.$card-dark-wine;
+    padding: 0.7rem;
+    display: flex;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    flex-flow: column nowrap;
+    align-items: center;
+    max-width: 250px;
+    border-radius: 1rem;
+    transition: 250ms ease-in-out;
+    &:hover {
+      background-color: variables.$card-dark-wine-hover;
     }
-}   
+    .img-wrapper {
+      text-align: center;
+      height: 15rem;
+      img {
+        height: 100%;
+      }
+    }
+    .content {
+      display: flex;
+      flex-flow: column nowrap;
+      h1,
+      h2 {
+        margin: 0.2rem;
+        text-align: center;
+      }
+      h1,
+      h2 {
+        text-transform: uppercase;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        display: -webkit-box;
+        -webkit-line-clamp: 1; /* number of lines to show */
+        line-clamp: 1;
+        -webkit-box-orient: vertical;
+      }
+      ul li {
+        list-style-type: none;
+        font-size: 1.2rem;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        display: -webkit-box;
+        -webkit-line-clamp: 1; /* number of lines to show */
+        line-clamp: 1;
+        -webkit-box-orient: vertical;
+        img {
+          height: 1.2rem;
+        }
+      }
+      a {
+        text-decoration: none;
+        color: white;
+        align-self: center;
+        padding: 0.5rem 1.2rem;
+        border-radius: 1.2rem;
+        background-color: variables.$lblue;
+        transition: 250ms ease-in-out;
+        &:hover {
+          background-color: white;
+          color: variables.$dark-wine;
+        }
+      }
+    }
+  }
+}

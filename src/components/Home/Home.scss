@@ -1,23 +1,21 @@
-@use '../../scss/variables';
-.container{
-    max-width: 1200px;
-    margin: 0 auto;
-    section{
-        min-height: 100vh;
-        .text-box{
-            width: 80%;
-            max-width: 540px;
-            padding: .7rem;
-            background-color: variables.$dark;
+@use "../../scss/variables";
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  section {
+    min-height: 100vh;
+    .text-box {
+      width: 80%;
+      max-width: 540px;
+      padding: 0.7rem;
+      background-color: variables.$dark;
 
-            color: #B11226;
-        }
+      color: #b11226;
     }
-    .landing{
-        text-align: center;
-        display: flex;
-        justify-content: center;
-    
-    
-    }
+  }
+  .landing {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+  }
 }

@@ -1,11 +1,9 @@
-import { AnimatePresence } from "framer-motion"
-import { Routes, Route } from "react-router-dom"
-import Home from "./components/Home"
-import Layout from "./components/Layout"
-import Product from "./components/Product"
+import { AnimatePresence } from "framer-motion";
+import { Routes, Route } from "react-router-dom";
+import Home from "./components/Home";
+import Layout from "./components/Layout";
+import Product from "./components/Product";
 function App() {
-
-
   return (
     <AnimatePresence mode="wait">
       <Routes>
@@ -17,7 +15,7 @@ function App() {
         </Route>
       </Routes>
     </AnimatePresence>
-  )
+  );
 }
 
-export default App
+export default App;

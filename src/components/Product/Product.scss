@@ -1,46 +1,45 @@
-@use '../../scss/variables';
+@use "../../scss/variables";
 
-
-.product-section{
-    max-width: 900px;
-    margin: 0  auto;
-    margin-top: 3rem;
-    color: white;
-    .product-heading{
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-around;
-        .image-wrapper{
-            img{
-                height: 100%;
-            }
-        }
-        .info-wrapper{
-            height: 100%;
-            .content{
-                display: flex;
-                height: 604px;
-                flex-direction: column;
-                justify-content: center;
-                h1{
-                    font-size: 3rem;
-                }
-                ul{
-                    list-style: none;
-                    padding-left: 0;
-                    display: grid;
-                    grid-template-columns: auto auto;
-                    li{
-                        img{
-                            padding-right: 1rem
-                        }
-                    }
-                }
-                a{
-                    @include variables.shop-button;
-                    margin-top: 1rem;
-                }
-            }
-        }
+.product-section {
+  max-width: 900px;
+  margin: 0 auto;
+  margin-top: 3rem;
+  color: white;
+  .product-heading {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    .image-wrapper {
+      img {
+        height: 100%;
+      }
     }
+    .info-wrapper {
+      height: 100%;
+      .content {
+        display: flex;
+        height: 604px;
+        flex-direction: column;
+        justify-content: center;
+        h1 {
+          font-size: 3rem;
+        }
+        ul {
+          list-style: none;
+          padding-left: 0;
+          display: grid;
+          grid-template-columns: auto auto;
+          li {
+            img {
+              padding-right: 1rem;
+            }
+          }
+        }
+        a {
+          @include variables.shop-button;
+          margin-top: 1rem;
+        }
+      }
+    }
+  }
 }

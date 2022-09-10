@@ -1,8 +1,8 @@
-@use '../../scss/variables';
-@use '../../scss//headers';
-@import url('https://fonts.googleapis.com/css2?family=Italiana&family=Junge&family=Kaisei+HarunoUmi:wght@400;500;700&display=swap');
-body{
-    margin: 0;
-    font-family: variables.$menu;
-    background-color: rgb(8, 1, 1);
+@use "../../scss/variables";
+@use "../../scss//headers";
+@import url("https://fonts.googleapis.com/css2?family=Italiana&family=Junge&family=Kaisei+HarunoUmi:wght@400;500;700&display=swap");
+body {
+  margin: 0;
+  font-family: variables.$menu;
+  background-color: rgb(8, 1, 1);
 }
