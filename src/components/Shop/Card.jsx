@@ -14,7 +14,7 @@ export default function Card({
     <div className="wine">
       <div className="img-wrapper">
         <img
-          src="./public/img/wine-bottles/1i1MlXXaS7qHjS84jPKX3Q_pb_x600.png"
+          src={`/img/wine-bottles/${id}.png`}
           alt="LA CHABLISIENNE"
         />
       </div>
@@ -23,19 +23,19 @@ export default function Card({
         <h2>{wineTitle}</h2>
         <ul>
           <li>
-            <img src="./public/icons/wine-glass.svg" />
+            <img src="/icons/wine-glass.svg" />
             {wineType}
           </li>
           <li>
-            <img src="./public/icons/wine-bottle.svg" />
+            <img src="/icons/wine-bottle.svg" />
             {wineStyle}
           </li>
           <li>
-            <img src="./public/icons/grapes.svg" />
+            <img src="/icons/grapes.svg" />
             {grapeType}
           </li>
           <li>
-            <img src="./public/icons/flag.svg" />
+            <img src="/icons/flag.svg" />
             {origin}
           </li>
         </ul>
