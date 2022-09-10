@@ -1,0 +1,28 @@
+//fonts
+$heading: 'Italiana', serif;
+$heading2: 'Kaisei HarunoUmi', serif;
+$menu: 'Junge', serif;
+// Colors
+$olive: #9E6C16;
+$strong-wine: #B11226;
+$dark-wine: #58181F;
+$card-dark-wine: #140305;
+$card-dark-wine-hover: #240609;
+$dark: #120204;
+$lblue: #0075C4;
+
+//Estilos generales
+@mixin shop-button {
+    text-decoration: none;
+    color: white;
+    align-self: flex-start;
+    padding: .5rem 1.2rem;
+    border-radius: 1.2rem;
+    background-color: $lblue;
+    transition: 250ms ease-in-out;
+
+    &:hover {
+        background-color: white;
+        color: $dark-wine;
+    }
+}

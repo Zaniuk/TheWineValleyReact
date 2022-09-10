@@ -1,0 +1,50 @@
+@use '../../scss/variables';
+@use '../../scss//headers';
+
+#featured{
+
+    background-image: url('../../public/img/backgrounds/marvin-l-61sZcZl3Mlk-unsplash\ \(1\).jpg');
+    background-position:center center;
+    object-fit: cover;
+
+    display: flex;
+    flex-flow: row;
+    justify-content: space-around;
+    p{
+        color: white;
+    }
+    .title{
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: center;
+        width: 40%;
+        order: 2;
+        text-align: center;
+        h1{
+            color: variables.$strong-wine;
+        }
+        h2{
+            color: variables.$olive;
+        }
+
+    }
+    .img-wrapper{
+        order: 3;
+        display: flex;
+        align-items: center;
+    }
+    .menu-wrapper{
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        ul{
+            height: 60%;
+            order:1;
+            color: white;
+            list-style-type: none;
+            display: flex;
+            flex-flow: column nowrap;
+            justify-content: space-around;
+        }
+    }
+}
