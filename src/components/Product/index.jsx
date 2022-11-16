@@ -2,6 +2,7 @@ import React from "react";
 import { useParams } from "react-router-dom";
 import "./Product.scss";
 import wineList from "../../utils/wine.json";
+import Card from "../Shop/Card";
 export default function Product() {
   const { id } = useParams();
 
@@ -91,6 +92,27 @@ export default function Product() {
           nihil porro alias nam fuga quam! Quisquam repudiandae dolores
           repellendus aperiam! Autem in pariatur sint cum!
         </p>
+
+      </div>
+      <div className="reccomendations">
+        <h1>También te podría gustar: </h1>
+        <div className="shop" id="shop">
+        {wineList.slice(2,5).map((wine) => {
+        return (
+          <Card
+            key={wine.id}
+            id={wine.id}
+            wineAuthor={wine.wineAuthor}
+            wineTitle={wine.wineTitle}
+            wineType={wine.wineType}
+            wineStyle={wine.wineStyle}
+            grapeType={wine.grapeType}
+            origin={wine.origin}
+            price={wine.price}
+          />
+        );
+      })}
+        </div>
       </div>
     </section>
   );

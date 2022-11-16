@@ -3,7 +3,7 @@ import "./Featured.scss";
 export default function Featured() {
   return (
     <section id="featured">
-      <div class="title">
+      <div className="title">
         <h1>OUR BEST SELLER</h1>
         <h2>CHATEAU DE MALIGNY CHABLIS PREMIER CRU 'FOURCHAUME' 2018</h2>
         <p>
@@ -14,42 +14,40 @@ export default function Featured() {
           aging a few years to express itself at its true value.{" "}
         </p>
       </div>
-      <div class="img-wrapper">
+      <div className="img-wrapper">
         <img
           src="/img/wine-bottles/Rxg_HyC7Qf2KR7kN--iyRA_pb_x600.png"
-          alt=""
-          srcset=""
         />
       </div>
-      <div class="menu-wrapper">
+      <div className="menu-wrapper">
         <ul>
-          <li id="button1" class="button-tooltip">
+          <li id="button1" className="button-tooltip">
             <span>SEC</span>
-            <div id="tooltip" class="hide-tooltip" role="tooltip">
+            <div id="tooltip" className="hide-tooltip" role="tooltip">
               Dry wine
             </div>
           </li>
-          <li id="button2" class="button-tooltip">
+          <li id="button2" className="button-tooltip">
             <span>ALB</span>
-            <div id="tooltip" class="hide-tooltip" role="tooltip">
+            <div id="tooltip" className="hide-tooltip" role="tooltip">
               Alvarinho
             </div>
           </li>
-          <li id="button3" class="button-tooltip">
+          <li id="button3" className="button-tooltip">
             <span>12.5%</span>
-            <div id="tooltip" class="hide-tooltip" role="tooltip">
+            <div id="tooltip" className="hide-tooltip" role="tooltip">
               Alcohol volume
             </div>
           </li>
-          <li id="button4" class="button-tooltip">
+          <li id="button4" className="button-tooltip">
             <span>750ml</span>
-            <div id="tooltip" class="hide-tooltip" role="tooltip">
+            <div id="tooltip" className="hide-tooltip" role="tooltip">
               How many ml are in
             </div>
           </li>
-          <li id="button5" class="button-tooltip">
+          <li id="button5" className="button-tooltip">
             <span>Italy</span>
-            <div id="tooltip" class="hide-tooltip" role="tooltip">
+            <div id="tooltip" className="hide-tooltip" role="tooltip">
               Made in
             </div>
           </li>
