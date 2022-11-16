@@ -15,7 +15,7 @@ export default function Card({
       <div className="img-wrapper">
         <img
           src={`/img/wine-bottles/${id}.png`}
-          alt="LA CHABLISIENNE"
+          alt={`${wineTitle} bottle`}
         />
       </div>
       <div className="content">
